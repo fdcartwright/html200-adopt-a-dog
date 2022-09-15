@@ -206,7 +206,100 @@ nav a:hover {
     font-size: 190%;
 }
 
-/* all dog listings */
+/* dog page dog listings */
+
+.dog-house-container2 {
+    width: 100%;
+    /* min-width: 5px; */
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0rem 10rem;
+}
+
+.dog-house2 {
+    width: 14rem;
+    height: 23rem;
+    border: 2px solid #ececec;
+    margin: 24px 7px;
+}
+
+.dog-house2 img {
+    width: 100%;
+    height: 40%;
+    /* min-width: 150px; */
+}
+
+.dog-house-details2 {
+    padding: 6px 10px;
+}
+
+.dog-house-details2 h2 {
+    color: #093c60;
+    font-weight: 700;
+}
+
+.dog-house-details2 p {
+    padding: 4% 0%;
+    font-size: 90%;
+}
+
+.dog-house-details2 h2 {
+    color: #093c60;
+    font-weight: 700;
+}
+
+.dog-house-details2 p {
+    padding: 4% 0%;
+    font-size: 90%;
+}
+
+.dog-house-details2 p:nth-child(3){
+    font-family: 'Noto Sans Buhid', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 85%;
+    font-weight: 100;
+}
+
+.dog-house-details2 > * {
+    padding-top: 7px;
+}
+
+.dog-house-details2 button {
+    background-color: #81b741;
+    color: white;
+    margin: 4px 0px;
+    padding: 5% 37%;
+    border: none;
+    border-radius: 3%;
+    font-weight: bold;
+    font-size: 100%;
+}
+
+.dog-house-button2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    margin-bottom: 6rem;
+}
+
+.dog-house-button2 button {
+    background-color: #ececec;
+    color: #093c60;
+    font-weight: 600;
+    font-size: 120%;
+    padding: 12px 46px;
+    border: none;
+}
+
+.dog-house-button-container2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Home page dog listings */
 
 .dog-house-container {
     position: relative;
