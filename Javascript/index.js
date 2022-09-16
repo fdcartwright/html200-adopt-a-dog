@@ -1,4 +1,3 @@
-
 let dogsTotal = 0.00
 
 function runningTotal(amount) {
