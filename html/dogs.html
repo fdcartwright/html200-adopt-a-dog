@@ -8,6 +8,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Buhid&family=Work+Sans:wght@&display=swap"
         rel="stylesheet">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.1.slim.min.js"
+        integrity="sha256-w8CvhFs7iHNVUtnSP0YKEg00p9Ih13rlL9zGqvLdePA=" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -20,7 +22,7 @@
             <div class="cart-button-box">
                 <div class="cart-button-total"></div>
                 <img src="/html200-adopt-a-dog/images/cart-icon.svg" alt="Shopping cart icon" width="30">
-                <span>$1234.56</span>
+                <span class="cart-total">0.00</span>
             </div>
             <form action="/html200-adopt-a-dog/html/checkout.html">
                 <input type="submit" value="Checkout">
@@ -45,10 +47,11 @@
             </div>
         </section>
         <section>
-            <div class="dog-house-container">
-                <div class="dog-house">
-                    <img onclick="dogDetails('Murphy', 'some breed', '$123.45');" src="/html200-adopt-a-dog/images/murphy-card.jpg" alt="Photo of a dog listing.">
-                    <div class="dog-house-details">
+            <div class="dog-house-container2">
+                <div class="dog-house2">
+                    <img onclick="dogDetails('Murphy', 'some breed', '$123.45');" src="/html200-adopt-a-dog/images/murphy-card.jpg"
+                        alt="Photo of a dog listing.">
+                    <div class="dog-house-details2">
                         <h2>Murphy</h2>
                         <p><strong>Cost to Adopt: </strong> $123.45</p>
                         <p>Corrum volorit iandae
@@ -56,13 +59,16 @@
                             reicid ut et etur sunt arum
                             rendae pla endis re ea erum,
                             qui doluptae</p>
-                        <button onclick="runningTotal(123.45);">Adopt</button>
+                        <div class="dog-house-button-container">
+                            <button onclick="runningTotal(123.45);">Adopt</button>
+                        </div>
                     </div>
                 </div>
                 <div class="dog-display">
-                    <div class="dog-house">
-                        <img onclick="dogDetails('Poppy', 'some breed', '$123.45');" src="/html200-adopt-a-dog/images/poppy-card.jpg" alt="Photo of a dog listing.">
-                        <div class="dog-house-details">
+                    <div class="dog-house2">
+                        <img onclick="dogDetails('Poppy', 'some breed', '$123.45');" src="/html200-adopt-a-dog/images/poppy-card.jpg"
+                            alt="Photo of a dog listing.">
+                        <div class="dog-house-details2">
                             <h2>Poppy</h2>
                             <p><strong>Cost to Adopt: </strong> $123.45</p>
                             <p>Corrum volorit iandae
@@ -70,14 +76,17 @@
                                 reicid ut et etur sunt arum
                                 rendae pla endis re ea erum,
                                 qui doluptae</p>
-                            <button onclick="runningTotal(123.45);">Adopt</button>
+                            <div class="dog-house-button-container">
+                                <button onclick="runningTotal(123.45);">Adopt</button>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="dog-display">
-                    <div class="dog-house">
-                        <img onclick="dogDetails('Jack', 'some breed', '$123.45');" src="/html200-adopt-a-dog/images/jack-card.jpg" alt="Photo of a dog listing.">
-                        <div class="dog-house-details">
+                    <div class="dog-house2">
+                        <img onclick="dogDetails('Jack', 'some breed', '$123.45');" src="/html200-adopt-a-dog/images/jack-card.jpg"
+                            alt="Photo of a dog listing.">
+                        <div class="dog-house-details2">
                             <h2>Jack</h2>
                             <p><strong>Cost to Adopt: </strong> $123.45</p>
                             <p>Corrum volorit iandae
@@ -85,14 +94,17 @@
                                 reicid ut et etur sunt arum
                                 rendae pla endis re ea erum,
                                 qui doluptae</p>
-                            <button onclick="runningTotal(123.45);">Adopt</button>
+                            <div class="dog-house-button-container">
+                                <button onclick="runningTotal(123.45);">Adopt</button>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="dog-display">
-                    <div class="dog-house">
-                        <img onclick="dogDetails('Duffy', 'some breed', '$123.45');" src="/html200-adopt-a-dog/images/duffy-card.jpg" alt="Photo of a dog listing.">
-                        <div class="dog-house-details">
+                    <div class="dog-house2">
+                        <img onclick="dogDetails('Duffy', 'some breed', '$123.45');" src="/html200-adopt-a-dog/images/duffy-card.jpg"
+                            alt="Photo of a dog listing.">
+                        <div class="dog-house-details2">
                             <h2>Duffy</h2>
                             <p><strong>Cost to Adopt: </strong> $123.45</p>
                             <p>Corrum volorit iandae
@@ -100,14 +112,17 @@
                                 reicid ut et etur sunt arum
                                 rendae pla endis re ea erum,
                                 qui doluptae</p>
-                            <button onclick="runningTotal(123.45);">Adopt</button>
+                            <div class="dog-house-button-container">
+                                <button onclick="runningTotal(123.45);">Adopt</button>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="dog-display">
-                    <div class="dog-house">
-                        <img onclick="dogDetails('Lucas', 'some breed', '$123.45');" src="/html200-adopt-a-dog/images/lucas-card.jpg" alt="Photo of a dog listing.">
-                        <div class="dog-house-details">
+                    <div class="dog-house2">
+                        <img onclick="dogDetails('Lucas', 'some breed', '$123.45');" src="/html200-adopt-a-dog/images/lucas-card.jpg"
+                            alt="Photo of a dog listing.">
+                        <div class="dog-house-details2">
                             <h2>Lucas</h2>
                             <p><strong>Cost to Adopt: </strong> $123.45</p>
                             <p>Corrum volorit iandae
@@ -115,14 +130,17 @@
                                 reicid ut et etur sunt arum
                                 rendae pla endis re ea erum,
                                 qui doluptae</p>
-                            <button onclick="runningTotal(123.45);">Adopt</button>
+                            <div class="dog-house-button-container">
+                                <button onclick="runningTotal(123.45);">Adopt</button>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="dog-display">
-                    <div class="dog-house">
-                        <img onclick="dogDetails('Jake', 'some breed', '$123.45');" src="/html200-adopt-a-dog/images/jack-card.jpg" alt="Photo of a dog listing.">
-                        <div class="dog-house-details">
+                    <div class="dog-house2">
+                        <img onclick="dogDetails('Jake', 'some breed', '$123.45');" src="/html200-adopt-a-dog/images/jack-card.jpg"
+                            alt="Photo of a dog listing.">
+                        <div class="dog-house-details2">
                             <h2>Jake</h2>
                             <p><strong>Cost to Adopt: </strong> $123.45</p>
                             <p>Corrum volorit iandae
@@ -130,14 +148,17 @@
                                 reicid ut et etur sunt arum
                                 rendae pla endis re ea erum,
                                 qui doluptae</p>
+                                <div class="dog-house-button-container">
                             <button onclick="runningTotal(123.45);">Adopt</button>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="dog-display">
-                    <div class="dog-house">
-                        <img onclick="dogDetails('Angus', 'some breed', '$123.45');" src="/html200-adopt-a-dog/images/angus-card.jpg" alt="Photo of a dog listing.">
-                        <div class="dog-house-details">
+                    <div class="dog-house2">
+                        <img onclick="dogDetails('Angus', 'some breed', '$123.45');" src="/html200-adopt-a-dog/images/angus-card.jpg"
+                            alt="Photo of a dog listing.">
+                        <div class="dog-house-details2">
                             <h2>Angus</h2>
                             <p><strong>Cost to Adopt: </strong> $123.45</p>
                             <p>Corrum volorit iandae
@@ -145,13 +166,16 @@
                                 reicid ut et etur sunt arum
                                 rendae pla endis re ea erum,
                                 qui doluptae</p>
-                            <button onclick="runningTotal(123.45);">Adopt</button>
+                            <div class="dog-house-button-container">
+                                <button onclick="runningTotal(123.45);">Adopt</button>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="dog-house">
-                    <img onclick="dogDetails('Violet', 'some breed', '$123.45');" src="/html200-adopt-a-dog/images/violet-card.jpg" alt="Photo of a dog listing.">
-                    <div class="dog-house-details">
+                <div class="dog-house2">
+                    <img onclick="dogDetails('Violet', 'some breed', '$123.45');" src="/html200-adopt-a-dog/images/violet-card.jpg"
+                        alt="Photo of a dog listing.">
+                    <div class="dog-house-details2">
                         <h2>Violet</h2>
                         <p><strong>Cost to Adopt: </strong> $123.45</p>
                         <p>Corrum volorit iandae
@@ -159,12 +183,15 @@
                             reicid ut et etur sunt arum
                             rendae pla endis re ea erum,
                             qui doluptae</p>
-                        <button onclick="runningTotal(123.45);">Adopt</button>
+                        <div class="dog-house-button-container">
+                            <button onclick="runningTotal(123.45);">Adopt</button>
+                        </div>
                     </div>
                 </div>
-                <div class="dog-house">
-                    <img onclick="dogDetails('Piper', 'some breed', '$123.45');" src="/html200-adopt-a-dog/images/piper-card.jpg" alt="Photo of a dog listing.">
-                    <div class="dog-house-details">
+                <div class="dog-house2">
+                    <img onclick="dogDetails('Piper', 'some breed', '$123.45');" src="/html200-adopt-a-dog/images/piper-card.jpg"
+                        alt="Photo of a dog listing.">
+                    <div class="dog-house-details2">
                         <h2>Piper</h2>
                         <p><strong>Cost to Adopt: </strong> $123.45</p>
                         <p>Corrum volorit iandae
@@ -172,12 +199,15 @@
                             reicid ut et etur sunt arum
                             rendae pla endis re ea erum,
                             qui doluptae</p>
-                        <button onclick="runningTotal(123.45);">Adopt</button>
+                        <div class="dog-house-button-container">
+                            <button onclick="runningTotal(123.45);">Adopt</button>
+                        </div>
                     </div>
                 </div>
-                <div class="dog-house">
-                    <img onclick="dogDetails('Maximus', 'some breed', '$123.45');" src="/html200-adopt-a-dog/images/maximus-card.jpg" alt="Photo of a dog listing.">
-                    <div class="dog-house-details">
+                <div class="dog-house2">
+                    <img onclick="dogDetails('Maximus', 'some breed', '$123.45');" src="/html200-adopt-a-dog/images/maximus-card.jpg"
+                        alt="Photo of a dog listing.">
+                    <div class="dog-house-details2">
                         <h2>Maximus</h2>
                         <p><strong>Cost to Adopt: </strong> $123.45</p>
                         <p>Corrum volorit iandae
@@ -185,12 +215,15 @@
                             reicid ut et etur sunt arum
                             rendae pla endis re ea erum,
                             qui doluptae</p>
-                        <button onclick="runningTotal(123.45);">Adopt</button>
+                        <div class="dog-house-button-container">
+                            <button onclick="runningTotal(123.45);">Adopt</button>
+                        </div>
                     </div>
                 </div>
-                <div class="dog-house">
-                    <img onclick="dogDetails('Luna', 'some breed', '$123.45');" src="/html200-adopt-a-dog/images/luna-card.jpg" alt="Photo of a dog listing.">
-                    <div class="dog-house-details">
+                <div class="dog-house2">
+                    <img onclick="dogDetails('Luna', 'some breed', '$123.45');" src="/html200-adopt-a-dog/images/luna-card.jpg"
+                        alt="Photo of a dog listing.">
+                    <div class="dog-house-details2">
                         <h2>Luna</h2>
                         <p><strong>Cost to Adopt: </strong> $123.45</p>
                         <p>Corrum volorit iandae
@@ -198,12 +231,15 @@
                             reicid ut et etur sunt arum
                             rendae pla endis re ea erum,
                             qui doluptae</p>
-                        <button onclick="runningTotal(123.45);">Adopt</button>
+                        <div class="dog-house-button-container">
+                            <button onclick="runningTotal(123.45);">Adopt</button>
+                        </div>
                     </div>
                 </div>
-                <div class="dog-house">
-                    <img onclick="dogDetails('Stella', 'some breed', '$123.45');" src="/html200-adopt-a-dog/images/stella-card.jpg" alt="Photo of a dog listing.">
-                    <div class="dog-house-details">
+                <div class="dog-house2">
+                    <img onclick="dogDetails('Stella', 'some breed', '$123.45');" src="/html200-adopt-a-dog/images/stella-card.jpg"
+                        alt="Photo of a dog listing.">
+                    <div class="dog-house-details2">
                         <h2>Stella</h2>
                         <p><strong>Cost to Adopt: </strong> $123.45</p>
                         <p>Corrum volorit iandae
@@ -211,7 +247,9 @@
                             reicid ut et etur sunt arum
                             rendae pla endis re ea erum,
                             qui doluptae</p>
-                        <button onclick="runningTotal(123.45);">Adopt</button>
+                        <div class="dog-house-button-container">
+                            <button onclick="runningTotal(123.45);">Adopt</button>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -236,7 +274,7 @@
             </div>
         </div>
     </footer>
-    <script src="/html200-adopt-a-dog/script.js"></script>
+    <script src="/html200-adopt-a-dog/Javascript/index.js"></script>
 </body>
 
 </html>
