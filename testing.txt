@@ -1,0 +1,37 @@
+Testing cross-browers support for Adopt-a-dog website. Checking for propper functionality of HTML, CSS, Vanilla JavaScript, and JQuery. 
+
+Browers Tested:
+Chrome
+Safari
+Firefox
+Edge
+
+Details: All browers support correct functionality including; proper link connections, hover effects, running checkout totals, and form submissions.
+
+Operating systems:
+Apple IOS
+MS Windows
+
+Details: Browser Operating systems correctly support the desired functionality.
+
+Hardware tested:
+Apple Iphone 12 (mobile)
+Macbook Pro (desktop)
+Lenovo Thinkpad (desktop)
+
+Details: Testing on mobile and desktop performs as desired. Resizing for mobile, tablet, and desktop correctly show desired details at all sizes. 
+
+User Persona:
+
+Name: Tommy Tester
+Age: 45
+Occupation: Sales Manager
+Activities: Golfing, Family 
+Family: Wife, 2 kids
+Other details: 
+-	Has a android smartphone and apple personal phone
+-	Has a 3 year old macbook pro computer
+-	Looking to adopt a dog for his family
+
+
+
